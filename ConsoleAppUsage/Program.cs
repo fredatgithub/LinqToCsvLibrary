@@ -15,7 +15,8 @@ namespace ConsoleAppUsage
       CsvFile.UseLambdas = true;
       CsvFile.UseTasks = false;
       CsvFile.FastIndexOfAny = true;
-
+      CreateRandomClientsCsvFile();
+      QueryClients();
 
       display("Press any key to exit:");
       Console.ReadKey();
