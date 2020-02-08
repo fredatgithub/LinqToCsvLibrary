@@ -9,7 +9,7 @@ namespace ConsoleAppUsage
 {
   class Program
   {
-    static void Main(string[] args)
+    static void Main()
     {
       Action<string> display = Console.WriteLine;
       CsvFile.UseLambdas = true;
